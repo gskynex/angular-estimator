@@ -8,7 +8,6 @@ on:
 
 jobs:
   build_publish:
-    if: ${{ github.event.pull_request.merged }}
     name: Build and Test
     runs-on: ubuntu-latest
     steps:

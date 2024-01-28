@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ng serve -o",
     "build": "ng build",
-    "build:github-pages": "ng build --base-href https://github.com/gskynex/angular-estimator/",
+    "build:github-pages": "ng build --base-href https://gskynex.github.io/angular-estimator/",
     "build:watch": "ng build --watch --configuration development",
     "lint": "npm run lint:ts && npm run lint:scss",
     "lint:scss": "stylelint 'src/**/*.scss'",
